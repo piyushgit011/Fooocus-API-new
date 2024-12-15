@@ -24,7 +24,7 @@ from firebase_admin import credentials, storage
 import time
 cred = credentials.Certificate("/workspace/Only Agents Firebase Admin SDK.json")
 firebase_admin.initialize_app(cred, {
-    'storageBucket': 'only-agents-22b31.appspot.com'
+    'storageBucket': 'only-agents-22b31.firebasestorage.app'
 })
 
 def convert_to_url(local_file, cloud_file):
